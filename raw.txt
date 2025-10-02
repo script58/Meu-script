@@ -61,7 +61,7 @@ outline.Parent = mainFrame
 
 -- TÃ­tulo
 local title = Instance.new("TextLabel")
-title.Text = "Phantom Client"
+title.Text = "Mhzin Client"
 title.Font = Enum.Font.GothamBold
 title.TextSize = 32
 title.TextColor3 = Color3.fromRGB(255,255,255)
@@ -173,10 +173,10 @@ local Tab11 = Window:MakeTab({"Scripts", "scroll"})
 Tab1:AddSection({"Créditos do Hub"})
 
 Tab1:AddDiscordInvite({
-    Name = "Phantom Client",
-    Description = "https://discord.gg/Mr646TwM",
+    Name = "Mhzin Client",
+    Description = "https://discord.gg/xcBdjWAsa",
     Logo = "rbxassetid://97023202251640",
-    Invite = "https://discord.gg/Mr646TwM",
+    Invite = "https://discord.gg/xcBdjWAsa",
 })
 
 
@@ -319,7 +319,7 @@ end
 Tab2:AddTextBox({
     Name = "Nome do Jogador",
     Description = "Digite parte do nome",
-    PlaceholderText = "ex: lo → The Darknesxz",
+    PlaceholderText = "ex: lo → Rk_davida",
     Callback = function(Value)
         local foundPlayer = findPlayerByPartialName(Value)
         if foundPlayer then
