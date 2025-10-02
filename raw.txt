@@ -1,4 +1,4 @@
--- // Phantom Client Loading + Hub Purple
+-- // Mhzin Client Loading + Hub Purple
 local CoreGui = game:GetService("CoreGui")
 
 -- ===========================
@@ -140,9 +140,9 @@ end)
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
 
 local Window = redzlib:MakeWindow({
-    Title = "Phantom Client | Brookhaven RP 🌌🏡 4.1",
-    SubTitle = "by The Darknesxz",
-    SaveFolder = "testando Phantom Client"
+    Title = "Mhzin Client | Brookhaven RP 🌌🏡 4.1",
+    SubTitle = "by The Rk_davida",
+    SaveFolder = "testando Mhzin Client"
   })
 
   Window:AddMinimizeButton({
@@ -206,15 +206,15 @@ local Paragraph = Tab1:AddParagraph({"Execultor", executorName})
 
 local Section = Tab1:AddSection({"versao do Hub 3.7"})
 
-local Paragraph = Tab1:AddParagraph({"Criadores", "the darknesxz"})
+local Paragraph = Tab1:AddParagraph({"Criadores", "the rk_davida"})
 
 
   
   Tab1:AddButton({
     Name = " - Copiar @ do TikTok",
     Callback = function()
-      setclipboard("@darkzim.aepp") -- Copia o @
-      setclipboard("https://www.tiktok.com/@darkzim.aepp?_t=ZM-8z75NNjT9yI&_r=1") -- Copia o link também, se quiser só o @, remova esta linha
+      setclipboard("@Rbzin_editz777") -- Copia o @
+      setclipboard("https://www.tiktok.com/@rbzin_editz777?_t=ZM-90CusGVAVUi&_r=1") -- Copia o link também, se quiser só o @, remova esta linha
       
     end
   })
